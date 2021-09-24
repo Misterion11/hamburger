@@ -1,0 +1,41 @@
+div{
+  border: 1px solid;
+}
+div.painhaut{
+height: 100px;
+width: 500px;
+border-top-right-radius: 50%;
+border-top-left-radius: 50%;
+background-color: brown;
+border: brown;
+}
+div.fromage{
+  height: 25px;
+  width: 500px;
+  background-color: yellow;
+  border : yellow;
+}
+div.steak{
+  height: 125px;
+  width: 500px;
+  border-radius: 10%;
+  background-color: grey;
+  border: grey;
+}
+div.painbas{
+height: 100px;
+width: 500px;
+border-bottom-right-radius: 50%;
+border-bottom-left-radius: 50%;
+background-color: brown;
+border: brown;
+}
+div.conteneurtotal{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.cru{
+  background-color: red;
+  border: red;
+}
